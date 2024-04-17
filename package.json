@@ -1,12 +1,24 @@
 {
-  "name": "4-express-capstone-soln",
+  "name": "7-express-capstone-bbyeodagung",
   "version": "1.0.0",
-  "description": "A website using Express",
+  "description": "7주차 NODE 과제",
   "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "jest",
     "start": "nodemon main.js"
   },
-  "author": "Aaron Snowberger",
-  "license": "ISC"
+
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
